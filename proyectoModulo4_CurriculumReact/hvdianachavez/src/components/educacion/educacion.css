@@ -1,0 +1,65 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+.cajaderecha{
+	max-width: 70%;
+	width: 100%;
+	min-height: 800px;
+	height: 100%;
+	text-align:center;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	padding: 30px;
+	box-shadow: 2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.acerca{
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	width: 80%;
+	color: #FFFFFF;
+	background-color: #507DBC;
+	border-radius: 12px  0px;
+	border: 1px solid #04080F;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+p{
+	margin-top: 0.5em;
+	font-size: 1.2em;
+
+}
+
+.educacion{
+
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+@media screen and (min-width:768px){
+.cajaderecha{
+		flex-direction: row;
+		justify-content: space-between;
+}
+}
+@media screen and (max-width:425px){
+.cajaderecha{
+	max-width: 100%;
+		flex-direction: row;
+	
+}
+}
+

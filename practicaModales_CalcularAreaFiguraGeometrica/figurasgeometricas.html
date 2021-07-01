@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+  <meta charset="utf-8">
+  <title>Modales Final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    
+    <div class="column">
+      <h1>PRESIONA EL BOTON CALCULAR EL ÁREA DE LA FIGURA GEOMÉTRICA</h1>
+<div class="card text-dark bg-light mb-3 col-md" style="max-width: 18rem;">
+  <div class="card-header">Circulo</div>
+  <div class="card-body">
+    <h5 class="card-title">Area del circulo</h5>
+    <img src="imagenes/circulo2.png" width="150px" >
+        <button type="button" class="btn btn-outline-danger" data-bs-target="#circulo" data-bs-toggle="modal">Calcular Area</button>
+  </div>
+</div>
+
+
+<div class="modal" tabindex="-1" id="circulo">
+  <div class="modal-dialog modal-dialog-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Area del circulo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+
+        <label for="radio" class="form-label"> Ingrese el valor del radio en cm </label>
+     <input type="number" name="radio" class="form-control" id="radio">
+
+     <p class="text-center mt-2" id="resultado"> Ingrese los datos</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick="calcularArea()">calcular</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-dark bg-light mb-3 col-md" style="max-width: 18rem;">
+  <div class="card-header">Cuadrado</div>
+  <div class="card-body">
+    <h5 class="card-title">Area del cuadrado</h5>
+    <img src="imagenes/cuadrado2.png" width="150px">
+        <button type="button" class="btn btn-outline-danger" data-bs-target="#cuadrado" data-bs-toggle="modal">Calcular Area</button>
+  </div>
+</div>
+
+
+<div class="modal" tabindex="-1" id="cuadrado">
+  <div class="modal-dialog modal-dialog-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Area del cuadrado</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+
+        <label for="lado" class="form-label"> Ingrese el valor del lado  en cm </label>
+     <input type="number" name="lado" class="form-control" id="lado">
+
+     <p class="text-center mt-2" id="resultado1">Ingrese los datos</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick="calcularAreaC()">calcular</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card text-dark bg-light mb-3 col-md" style="max-width: 18rem;">
+  <div class="card-header">Triangulo</div>
+  <div class="card-body">
+    <h5 class="card-title">Area del triangulo</h5>
+    <img src="imagenes/triangulo2.png" width="150px">
+        <button type="button" class="btn btn-outline-danger" data-bs-target="#triangulo" data-bs-toggle="modal">Calcular Area</button>
+  </div>
+</div>
+
+
+<div class="modal" tabindex="-1" id="triangulo">
+  <div class="modal-dialog modal-dialog-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Area del triangulo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+
+        <label for="base" class="form-label"> Ingrese el valor de la base  en cm </label>
+     <input type="number" name="base" class="form-control" id="base">
+
+      <label for="altura" class="form-label"> Ingrese el valor de la altura  en cm </label>
+     <input type="number" name="altura" class="form-control" id="altura">
+
+
+     <p class="text-center mt-2" id="resultado2">Ingrese los datos</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick="calcularAreaT()">calcular</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card text-dark bg-light mb-3 col-md" style="max-width: 19rem;">
+  <div class="card-header">Rectangulo</div>
+  <div class="card-body">
+    <h5 class="card-title">Area del rectangulo</h5>
+    <img src="imagenes/rectangulo2.png" width="233px">
+        <button type="button" class="btn btn-outline-danger" data-bs-target="#rectangulo" data-bs-toggle="modal">Calcular Area</button>
+  </div>
+</div>
+<div class="modal" tabindex="-1" id="rectangulo">
+  <div class="modal-dialog modal-dialog-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Area del rectangulo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+
+        <label for="base1" class="form-label"> Ingrese el valor de la base  en cm </label>
+     <input type="number" name="base1" class="form-control" id="base1">
+
+      <label for="altura1" class="form-label"> Ingrese el valor de la altura  en cm </label>
+     <input type="number" name="altura1" class="form-control" id="altura1">
+
+
+     <p class="text-center mt-2" id="resultado3">Ingrese los datos</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" onclick="calcularAreaR()">calcular</button>
+   
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+   </div>
+    </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/figuras.js"></script>
+</body>
+</html>

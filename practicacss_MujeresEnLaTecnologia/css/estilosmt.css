@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+	background-image: url("../imagenes/fondo2.webp");
+	background-size: width 1500px height 1500px; 
+	color: #283071;
+	font-family: 'Fira Sans', sans-serif;
+	}
+h1{
+	color: #7C1A90;
+	text-align: center;
+	font-family: 'Cormorant Unicase', serif;
+	text-transform: capitalize;
+}
+img{width: 200px
+}
+p {
+	text-align: justify;
+}
+h2{
+	color: #7C1A90;
+	text-align: left;
+	font-family: 'Cormorant Unicase', serif;
+}
+ul{list-style-image: url(../imagenes/icono.png); list-style-position: inside;
+}
+a:link{
+	color: #BF06BA;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited{
+	color: #0A7FAB;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	color: #0A7FAB;
+	font-weight: bold;
+	text-decoration: none;
+}
+table{
+	width: 500px;
+	border: 4px:;
+	border-collapse: collapse;
+	border-color: #BF06BA
+	border-style: dashed;
+}
+th{
+	width:4px;
+	border-style: dashed;
+	background-color:#BF06BA;
+	color: white;
+	text-align: center;
+}
+td{width:4px;
+	border-color:#BF06BA;
+	border-style: dashed;
+	text-align: center;
+}

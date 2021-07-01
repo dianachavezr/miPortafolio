@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilospagbase.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+
+
+
+  <title>Index</title>
+</head>
+
+<body>
+ <div class="container">
+   <!--INICIO DE CABECERA-->
+   <header>
+    <div class="logo">
+      <img src="imagenes/educAccion3.png" width="370px">
+
+      
+      <button id="registro1" class="boton1" type="submit" value="registro1" >Registrarse</button>
+      
+
+      <div class="fondo_transparente">
+        <div class="modal">
+          <div class="modal_cerrar">
+            <span>x</span>
+          </div>
+          
+
+          <form class="formulario1" id="frmvalidacion" name="formulario" novalidate="novalidate" method="get" action="">
+            
+            <h1>Registrarse</h1><br>
+
+            
+            
+            <div id="camponombre">
+              <input type="text" name="nombre" id="nombre" class="" placeholder="Nombre completo">
+              <div class="feedback"></div>
+            </div>
+
+            <div id="campousuario">
+              <input type="text" name="usuario" id="usuario3" class="" placeholder="Usuario">
+              <div class="feedback"></div>
+            </div>
+
+            <div id="campoTelefono">
+             
+              <input type="text" name="telefono" id="telefono" class="" placeholder="Teléfono">
+              <div class="feedback"></div>
+            </div>
+
+            <div id="campocorreo" >
+              
+              <input type="text" name="correo" id="email" class="" placeholder="Correo Electrónico">
+              <div class="feedback"></div>
+            </div>
+
+            <div id="campopassword" >
+              <input type="password" name="contrasena" id="password1" class="" placeholder="Contraseña">
+              <div class="feedback"></div>
+            </div>
+
+
+            
+            <label class="custom-control custom-radio" id="radio">
+              <input id="radio1" type="radio" required=""  name="button" class="custom-control-input" value="1">
+              <span class="custom-control-label">Soy Alumno</span>
+            </label>
+            <label class="custom-control custom-radio">
+              <input id="radio2" type="radio" required=""  name="button" class="custom-control-input" value="2">
+              <span class="custom-control-label">Soy Profesor</span>
+            </label>
+
+            <div  class="d-grid gap-2 " class="boton1">
+             <input type="submit" name="boton" class="boton" value="Enviar">
+           </div>
+
+
+
+         </form>
+       </div>
+     </div>
+
+
+     <button id="usuario1" class="boton2" type="submit" value="usuario" >Iniciar Sesión</button>
+
+     <div class="fondo_transparente1">
+      <div class="modal1">
+        <div class="modal_cerrar1">
+          <span>x</span>
+        </div>
+        <form class="formulario1" id="frmvalidacion1" name="formulario1" method="get" action="" novalidate="novalidate">
+          
+          <h1 >Inicio de Sesión</h1><br>
+
+          <div id="campousuario2">
+            <input type="text" name="usuario2" id="usuario2" class="" placeholder="Usuario" required="">
+            <div class="feedback"></div>
+          </div>
+
+          <div id="campopassword2" >
+            <input type="password" name="contrasena" id="password2" class="" placeholder="Contraseña" required="">
+            <div class="feedback"></div>
+          </div>
+          <label class="custom-control custom-radio" id="radio">
+            <input id="radio1" type="radio" required=""  name="button" class="custom-control-input" value="1">
+            <span class="custom-control-label">Soy Alumno</span>
+          </label>
+          <label class="custom-control custom-radio">
+            <input id="radio2" type="radio" required=""  name="button" class="custom-control-input" value="2">
+            <span class="custom-control-label">Soy Profesor</span>
+          </label>
+
+          
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+          </div>
+          <input type="submit" class="boton2" value="Ingresar"><br>
+
+          <a href="contrasena.html"><label>Olvidé mi contraseña</label></a> 
+          
+          
+        </div>
+
+        
+      </form>
+    </div>
+  </div>
+  
+
+
+</header>
+
+
+<!--FIN DE CABECERA-->
+
+<!--INICIO BARRA DE NAVEGACION-->
+<nav>
+  <ul class="menu">
+
+
+    
+    <li class="icono"><i class="fa fa-home"></i><a href="index.html">  Inicio</a></li>
+    <li class="icono"><i class="fa fa-puzzle-piece"></i><a> Cursos</a><ul class="submenu">
+      
+      <li><a href="carpinteria.html">Carpintería </a></li>
+      <li><a href="peluqueria.html">Peluquería </a></li>
+    </ul>
+
+  </li>
+  <li class="icono"><i class="fa fa-suitcase"></i><a href="nosotros.html"> Nosotros</a></li>
+  
+  <li class="icono"><i class="fa fa-envelope-o"></i><a href="contacto.html">  Contáctenos</a></li>
+</ul>
+
+</nav>
+<!--fin  BARRA DE NAVEGACION-->
+
+
+<!--INICIO SECCION CONTACTO 1-->
+
+<SECTION id="principalcurso1"><br>
+
+
+  
+  <div class="cajaindex">
+    <div class="cajap">
+      
+      <iframe class="videoindex" width="600" height="378" src="https://www.youtube.com/embed/y1S4IZNcyxc" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    </div>
+    <div class="cajap">
+
+     <p class="video">Bienvenido a EducAcción </p> <br><br><br>
+     <p class="video1"> Este video que te sera de gran utilidad <br>
+     para la nueva etapa que deseas  iniciar</p> <br>
+     <p class="video2">10 TIPS PARA ESTUDIAR VIRTUAL</p>
+
+
+   </div>
+ </div>
+ <div class="container-all">
+
+  <input type="radio" id="1" name="image-slide" hidden />
+  <input type="radio" id="2" name="image-slide" hidden />
+  <input type="radio" id="3" name="image-slide" hidden />
+
+  <div class="slide">
+
+    <div class="item-slide">
+      <img src="imagenes/img1.jpg">
+    </div>
+
+    <div class="item-slide">
+      <img src="imagenes/img2.jpg">
+    </div>
+
+    <div class="item-slide">
+      <img src="imagenes/img3.jpg">
+    </div>
+
+  </div>
+
+  <div class="pagination">
+
+    <label class="pagination-item" for="1">
+      <img src="imagenes/img1.jpg">
+    </label>
+
+    <label class="pagination-item" for="2">
+      <img src="imagenes/img2.jpg">
+    </label>
+
+    <label class="pagination-item" for="3">
+      <img src="imagenes/img3.jpg">
+    </label>
+
+  </div>
+
+</div> <br><br><br><br><br><br><br><br>
+<article class="cajapimag">
+  <div class="card" style="width: 25rem;">
+    <img src="imagenes/carpenter-4015109_640.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title"><strong>Curso de carpinteria</strong> </h2><br>
+      <p class="texto">El curso de carpintería tiene el propósito que el estudiante conozca y
+        comprenda la naturaleza de la madera y sus derivados, con el fin de entender cómo se
+        puede modificar su materia prima, para crear diferentes tipos de objetos esenciales al
+      desarrollo humano.</p>
+      <button class="boton1"><a href="carpinteria.html"><strong>Inicio</strong></a></button>
+    </div>
+  </div>
+</article>
+<article class="cajapimag">
+  <div class="card" style="width: 25rem;">
+    <img src="imagenes/curso-peluqueria.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title"><strong>Curso de peluqueria</strong> </h2><br>
+      <p class="texto">El curso de peluqueria tiene el propósito que el estudiante conozca y
+        comprenda todos los conocimientos básicos sobre el cuidado, corte, estilismo,
+        coloración, técnicas, materiales y utensilios necesarios para obtener los mejores
+      resultados esteticos.</p>
+      <button class="boton1"><a href="peluqueria.html"><strong>Inicio</strong></a></button>
+    </div>
+  </div>
+</article>
+
+<div class="cajaredes"><br><br>
+  
+
+
+  <div class="redes">
+    
+
+   <h3>NUESTRAS REDES: </h3>
+   <table>
+    <tr>
+      <td><a href="https://www.facebook.com/">
+        <figure class="redes"><img src="imagenes/facebook.png"></figure>
+      </a></td>
+      <td><a href="https://twitter.com/">
+        <figure class="redes"><img src="imagenes/gorjeo.png"></figure>
+      </a></td>
+      <td><a href="https://instagram.com/">
+        <figure class="redes"><img src="imagenes/instagram.png"></figure>
+      </a></td>
+      <td><a href="https://whatsapp.com/">
+        <figure class="redes"><img src="imagenes/whatsapp.png"></figure>
+      </a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="sistpago">
+ <h3>SISTEMAS  DE PAGO:</h3>
+ 
+ <a href="https://colombia.payu.com/"><img src="imagenes/targ.png" width="350px"></a>
+ 
+</div>
+
+
+<div class="polpago">  
+
+ <h3>POLITICAS DE PAGO:</h3>
+ <p>Todos los derechos del sitio están reservados por el IRB y la reproducción, distribución o
+  transmisión de todo, o parte del sitio, ya sea mediante fotocopia o almacenamiento en cualquier
+  medio por medios electrónicos u otros (excepto cuando sea para su propio uso no comercial y en
+  cumplimiento de las condiciones aplicables al mismo detalladas y establecidas más adelante), sin
+el permiso escrito del International Rugby Board, están prohibidas. </p>
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+<!--fin  SECCION CONTACTO 1-->
+
+
+
+
+<!--INICIO FOOTER-->
+<footer class="footindex">
+ &copy;Sitio desarrollado por Diana Chavez y Khadija T Marrugo/Todos los derechos reservados.
+</footer>
+<!--FIN FOOTER-->
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/usuarioDom.js"></script>
+
+
+
+</body>
+
+</html>

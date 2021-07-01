@@ -1,0 +1,72 @@
+*{
+margin:0;
+border:0;
+padding:0;
+list-style:none;}
+
+
+.container-fluid{
+	
+	max-width: 1400px;
+	width: 100%;
+	min-height: 840px;
+	background-image: url("../imagenes/fondo.jpg");
+	justify-content: center;
+	display: flex;
+}
+
+h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+.card{
+	display: block;
+	display: flex;
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 50px;
+	background-image: url("../imagenes/fondo.jpg");
+	opacity: 0.8;
+	
+	}
+
+.card-header{
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+
+}
+
+
+
+.card-title{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.btn-outline-danger {
+  color: white;
+  background-color: black;
+  border-color: black;
+  margin-top: 10px;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: purple;
+  border-color: #dc3545;
+}
+
+
+
+.modal-header{
+	background-color: purple;
+	color: white;
+	justify-content: center;
+
+}

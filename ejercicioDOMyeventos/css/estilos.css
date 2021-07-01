@@ -1,0 +1,238 @@
+/*ESTE PROCESO ES DESCARGANDO FUENTE AL PC*/
+@font-face{
+	font-family: "roboto";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+margin:0;
+border:0;
+padding:0;
+list-style:none;
+box-sizing: border-box;
+}
+
+body{
+	background-image: url("../imagenes/fondo3.jpg");
+	background-size: cover;
+	font-family: "roboto";
+}
+
+h1,h2,h3{
+	font-family: 'Itim', cursive;
+	text-align:center;
+	color: #5CCDFA;
+}
+
+p{
+	margin-top: 15px;
+	text-align:justify;
+}
+
+select{
+	
+	background-color: #C05CFA;
+	min-height: 2.5rem; 
+	height: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 4px 4px 3px #000000;
+	font-family: 'Itim', cursive;
+}
+
+
+.fila{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-evenly;
+}
+
+.caja{
+	background-color: rgba(0,0,0,0.5);
+	max-width: 30rem; 
+	width: 100%;
+	min-height: 25rem;
+	max-height: 25rem;
+	height: 100%;
+	margin: 30px 0;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	border: 5px solid purple;
+	border-radius: 25px;
+}
+.boton1{
+	margin-top: 15px;
+
+}
+
+
+
+
+#correcto{
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+#correcto  img{
+	width: 40px;
+}
+
+
+/*estilos acertijo*/
+
+.caja1{
+	background-color: rgba(0,0,0,0.9);
+	max-width: 30rem; 
+	width: 100%;
+	min-height: 25rem;
+	max-height: 25rem;
+	height: 100%;
+	margin: 30px 0;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	border: 5px solid purple;
+	border-radius: 25px;
+}
+
+#acertijo{
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 10px;
+	max-width: 100%;
+	width: 100%;
+	max-height: 6rem;
+	min-height: 6rem;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*estilos refran*/
+
+.camaron{
+	display: flex;
+	display: inline-block;
+}
+
+.prueba{
+	visibility: visible;
+	opacity: 1;
+	transition: all 3s ease;
+}
+
+
+#correcto1 {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+#correcto1  img{
+	width: 40px;
+}
+
+/*ESTILOS ADIVINANZA*/
+
+#correcto2 {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+#correcto2  img{
+	width: 40px;
+}
+
+
+#correcto3  {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+#correcto3  img{
+	width: 40px;
+}
+
+
+
+#show,#hide {
+	display:none;
+}
+
+div#content {
+	display:none;
+  padding:10px;
+  background-color:#f6f6f6;
+  width:200px;
+  cursor:pointer;
+}
+
+input#show:checked ~ div#content {
+	display:block;
+}
+
+input#hide:checked ~ div#content {
+	display:none;
+}
+
+.prueba{
+	visibility: visible;
+	opacity: 1;
+	transition: all 3s ease;
+}

@@ -1,0 +1,32 @@
+*{
+margin:0;
+border:0;
+padding:0;
+list-style:none;}
+
+
+.card-body{
+	
+	border:3px solid grey;
+	border-radius: 5px;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	
+}
+
+.btn-primary{
+
+	width: 200px;
+	background-color:#790C5A;
+	color: white;
+	padding: 5px;
+	margin: auto;
+	align-content: center;
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background-color: #8BA7AF;
+  border-color: #0062cc;
+}

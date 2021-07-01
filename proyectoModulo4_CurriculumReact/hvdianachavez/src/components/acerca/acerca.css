@@ -1,0 +1,77 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+.cajaderecha{
+	max-width: 65%;
+	width: 100%;
+	min-height: 800px;
+	height: 100%;
+	text-align:center;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+p{
+	margin-top: 0.5em;
+	font-size: 1.2em;
+}
+
+.caja{
+	max-width: 355px;
+	width: 100%;
+	padding: 10px ;
+	margin: 10px;
+	box-shadow: 3px -3px 3px #C4C4C4C4;
+
+}
+
+.caja2{
+	max-width: 355px;
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 3px -3px 3px #C4C4C4C4;
+}
+.cajainf{
+	display: flex;
+	padding: 10px;
+}
+
+
+progress[value] {
+    width: 100%;
+    height: 10px;
+    appearance: none;
+    color:#0BAFE3;
+    background-color: #06B0EA;
+    }
+    
+progress::-moz-progress-bar { background:#507DBC; }
+progress::-webkit-progress-value { background :#507DBC; }
+
+
+@media screen and (min-width:768px){
+.cajaderecha{
+		flex-direction: row;
+		justify-content: space-between;
+}
+}
+
+
+@media screen and (max-width:425px){
+.cajaderecha{
+	max-width: 100%;
+		flex-direction: row;
+}
+.cajainf{
+	display: block;
+	padding: none;
+}
+}
+
